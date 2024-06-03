@@ -10,5 +10,21 @@ package sistimlogic;
  * @author A-16
  */
 public class sistemPerkuliahan {
+    private perkuliahan[] dataperkuliahans;
+    private Dosen[] dataDosens;
+    private mahasiswa[] datamahasiswas;
+    private staf[] datastafs;
+
+    public sistemPerkuliahan() {
+    }
+
+    public sistemPerkuliahan(int maxperkuliahan,int maxDosen, mahasiswa[] datamahasiswas, staf[] datastafs) {
+        this.dataperkuliahans = dataperkuliahans;
+        this.dataDosens = dataDosens;
+        this.datamahasiswas = datamahasiswas;
+        this.datastafs = datastafs;
+    }
+
+   
     
 }

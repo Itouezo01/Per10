@@ -6,9 +6,11 @@
 package com.mycompany.sistemperkuliahan;
 
 import Ui.TextUI;
+import sistimlogic.sistemPerkuliahan;
 
 public class Main {
     public static void main(String[] args) {
+        sistemPerkuliahan sP = new sistemPerkuliahan();
         TextUI ui = new TextUI();
         ui.run();
     }

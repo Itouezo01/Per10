@@ -14,6 +14,9 @@ import java.util.Scanner;
 public class TextUI { 
     private static Scanner scanner = new Scanner(System.in);
 
+    public TextUI(){
+    System.out.println("Ini kontruktor dari TextUI");
+    }
     public void run(){
         while (true) {
             displayMainMenu();

@@ -10,10 +10,6 @@ package sistimlogic;
  * @author A-16
  */
 public class perkuliahan {
-    private perkuliahan[] dataperkuliahans;
-    private Dosen[] dataDosens;
-    private mahasiswa[] datamahasiswas;
-    private staf[] datastafs;
     
     
 }
